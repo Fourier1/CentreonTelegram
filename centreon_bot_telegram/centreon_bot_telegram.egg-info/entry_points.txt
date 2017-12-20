@@ -1,0 +1,3 @@
+[console_scripts]
+centreon_bot_telegram-sm = centreon_bot_telegram.centreon_telegram:start
+

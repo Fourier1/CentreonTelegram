@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+centreon_bot_telegram/__init__.py
+centreon_bot_telegram/centreon_telegram.py
+centreon_bot_telegram/setings.py
+centreon_bot_telegram/starter.py
+centreon_bot_telegram.egg-info/PKG-INFO
+centreon_bot_telegram.egg-info/SOURCES.txt
+centreon_bot_telegram.egg-info/dependency_links.txt
+centreon_bot_telegram.egg-info/entry_points.txt
+centreon_bot_telegram.egg-info/top_level.txt

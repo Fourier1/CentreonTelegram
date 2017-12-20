@@ -1,0 +1,10 @@
+
+Le fichier va contenir la liste de tous les fichiers non python que nous allons utiliser
+dans notre pacquet.
+Dans notre ca nous avons utiliser:
+    (README.md, et l'image centreon.png)
+
+    include *.md
+    include *.txt
+    recursive-include sm_lib *.jpeg
+

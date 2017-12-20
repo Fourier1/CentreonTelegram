@@ -1,0 +1,58 @@
+Metadata-Version: 1.1
+Name: centreon-bot-telegram
+Version: 0.0.1
+Summary: Bot telegram servant a voir les hosts et les services sur centreon
+Home-page: https://github.com/Fourier1/CentreonTelegram.git
+Author: Saint Fourier
+Author-email: fouriersaint@gmail.com
+License: WTFPL
+Description-Content-Type: UNKNOWN
+Description: / ** DESCRIPTION DU CONTENU DU FICHIER README ** /
+        
+        * A quoi sert la lib. 
+        * Comment l’installer.
+        * Un exempe concret d’utilisation.
+        * La licence d’utilisation.
+        * Un lien vers la doc si elle existe.
+        
+        CENTREON BOT Lib - afficher le status des hosts et services et faire aussi des aquitement sur centreon
+        ============================================================================================
+        
+        Ce module centreon_bot_telegram permet de connaitre le status et de faire le aquitements 
+        des services et les hosts present sur la plate forme de supervision centreon
+        ----------------------------------------------------------------------------------------------------
+            Information a renseigner avant l'utilisation du bot telegram
+            ============================================================
+            
+        * BOT_TOKEN : le token qui delivre telegram apres creation du bot sur telegram (BotFather)
+        * URL_CENTREON : le a votre plateforme centreon (http://adresse-server-centreon/centreon/api/index.php)
+        * AUTH_URL : l'url pour recuperé le token que fournir centreon en ajoutant le surfixe (URL_CENTREON + '?action=authenticate')
+        * USERNAME_CENTREON :  nom d'utilisation de centreon
+        * PASSWORD_CENTREON : mot de passe de centreon
+        
+            Instalation du packeges
+            =======================
+            pip centreon_bit_telegram
+        
+        Exemple d'utilisation : 
+            
+            >>> from centreon_bot_telegram import (les fonction a importer)
+            >>> fonction_importer()
+            >>> python starter.py start (pour demarer)
+            
+        Ce code est sous la licence WTFPL
+        
+        GNU GPL: 
+           * La liberté d'exécuter le logiciel, pour n'importe quel usage ;
+           * La liberté d'étudier le fonctionnement d'un programme et de l'adapter à ses besoins, ce qui passe par l'accès aux codes sources ;
+           * La liberté de redistribuer des copies ;
+           *  L'obligation de faire bénéficier à la communauté des versions modifiées.
+            
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Developpement Status :: 1 - Plannig
+Classifier: Licence :: OSI Approved
+Classifier: Natural Language :: Frensh
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Communication
