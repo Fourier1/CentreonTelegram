@@ -17,7 +17,7 @@ python-daemon==1.6
 python-telegram-bot==9.0.0
 python-telegram-handler==2.0.2
 pytz==2017.3
-requests==2.18.4
+requests==2.20.0
 Runner==1.1
 sm-lib==0.0.1
 telegram==0.0.1
